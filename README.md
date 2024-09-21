@@ -1,4 +1,3 @@
-Here’s the updated documentation, including the initialization process with pip commands instead of a requirements.txt file:
 
 ---
 
@@ -201,5 +200,3 @@ Contributions are welcome! Please follow these steps:
 This project is licensed under the MIT License.
 
 ---
-
-Let me know if you need any further adjustments!
