@@ -1,4 +1,3 @@
-
 ---
 
 # Music Recommendation System
@@ -82,8 +81,15 @@ The **Music Recommendation System** utilizes natural language processing (NLP) a
 
 ### Step 3: Set Up Music Streaming API Credentials
 
-- Create a file named `credentials.json` in the repository directory.
-- Add your music streaming platform API credentials to the file (e.g., Spotify client ID and secret).
+- Open the `app.py` file in the project directory.
+- Locate the following lines in the code:
+
+  ```python
+  CLIENT_ID = "your_client_id_here"
+  CLIENT_SECRET = "your_client_secret_here"
+  ```
+
+- Replace `"your_client_id_here"` and `"your_client_secret_here"` with your actual Spotify API credentials.
 
 ### Step 4: Run the Application
 
@@ -197,6 +203,6 @@ Contributions are welcome! Please follow these steps:
 
 ## License
 
-This project is licensed under the MIT License.
+This project is open-source. You are free to use, modify, and distribute it under the terms of the MIT License.
 
 ---
